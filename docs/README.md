@@ -23,6 +23,7 @@ http://127.0.0.1:18789/#token=ed2b9aaa2a688b4839bc34c44ff014bdbb1237adaa6252c2
 skillhub install url-reader
 
 获取https://www.xiaohongshu.com/user/profile/5bb385673c3df300013db71a的笔记详情
+ls ~/.openclaw/workspace/skills/url-reader/.venv
 
 npx clawhub@latest install sonoscli
 clawhub install answeroverflow
