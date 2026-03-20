@@ -10,6 +10,9 @@ clawhub install answeroverflow
 Rate limit exceeded
 Error: Rate limit exceeded
 
+https://www.skillsbot.cn/
+https://skillhub.tencent.com/
+
 curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/install.sh | bash  -s -- --no-skills
 curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/install.sh | bash
 
