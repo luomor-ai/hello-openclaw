@@ -5,6 +5,8 @@ openclaw onboard
 
 rm -rf ~/.nvm/versions/node/v22.15.0/lib/node_modules/openclaw/extensions/feishu/
 
+openclaw gateway --port 18789
+
 http://127.0.0.1:18789/#token=ed2b9aaa2a688b4839bc34c44ff014bdbb1237adaa6252c2
 
 npx clawhub@latest install sonoscli

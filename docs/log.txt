@@ -534,3 +534,11 @@ Docs: docs.openclaw.ai/cli
 01:38:03 [plugins] feishu_wiki: Registered feishu_wiki tool
 01:38:03 [plugins] feishu_drive: Registered feishu_drive tool
 01:38:03 [plugins] feishu_bitable: Registered bitable tools
+
+openclaw gateway --port 18789
+Config warnings:\n- plugins.entries.feishu: plugin feishu: duplicate plugin id detected; later plugin may be overridden (/Users/peterzhang/.openclaw/extensions/feishu/index.ts)
+openclaw requires Node >=22.16.0.
+Detected: node 22.15.0 (exec: /Users/peterzhang/.nvm/versions/node/v22.15.0/bin/node).
+PATH searched: /Users/peterzhang/.nvm/versions/node/v22.15.0/bin:/usr/local/bin:/Users/peterzhang/Library/pnpm:/Users/peterzhang/.local/bin:/usr/bin:/bin:/Users/peterzhang/dev/apache-jmeter-5.6.3/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/peterzhang/dev/go/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/sbin:/sbin:/usr/local/corplink/mdm/opt/corplink-mdm/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/peterzhang/Library/Android/sdk/platform-tools/:/Users/peterzhang/dev/google-cloud-sdk/bin:/Users/peterzhang/dev/flutter/flutter/bin
+Install Node: https://nodejs.org/en/download
+Upgrade Node and re-run openclaw.
