@@ -1,0 +1,16 @@
+clawhub install answeroverflow
+Rate limit exceeded
+Error: Rate limit exceeded
+
+curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/install.sh | bash
+Info: skillhub plugin config entry not found or already removed; skip disable.
+Install complete.
+  mode: all
+  cli: ~/.local/bin/skillhub
+  skill: ~/.openclaw/workspace/skills/find-skills/SKILL.md
+  skill: ~/.openclaw/workspace/skills/skillhub-preference/SKILL.md
+
+Quick check:
+  skillhub search calendar
+  test -f ~/.openclaw/workspace/skills/find-skills/SKILL.md && echo find-skills-installed
+  test -f ~/.openclaw/workspace/skills/skillhub-preference/SKILL.md && echo skillhub-preference-installed
