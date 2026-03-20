@@ -3,6 +3,8 @@ nvm use v22.15.0
 npm install -g openclaw@latest
 openclaw onboard
 
+rm -rf ~/.nvm/versions/node/v22.15.0/lib/node_modules/openclaw/extensions/feishu/
+
 http://127.0.0.1:18789/#token=ed2b9aaa2a688b4839bc34c44ff014bdbb1237adaa6252c2
 
 npx clawhub@latest install sonoscli
@@ -18,6 +20,8 @@ curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/ins
 export PATH="$HOME/.local/bin:$PATH"
 
 skillhub install answeroverflow
+
+获取https://www.xiaohongshu.com/user/profile/5bb385673c3df300013db71a的笔记详情
 ```
 
 ```shell
