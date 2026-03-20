@@ -14,3 +14,8 @@ Quick check:
   skillhub search calendar
   test -f ~/.openclaw/workspace/skills/find-skills/SKILL.md && echo find-skills-installed
   test -f ~/.openclaw/workspace/skills/skillhub-preference/SKILL.md && echo skillhub-preference-installed
+
+skillhub install answeroverflow
+info: "answeroverflow" not in index, using remote registry exact match
+Downloading: https://lightmake.site/api/v1/download?slug=answeroverflow
+Installed: answeroverflow -> ~/dev/github/docker-wordpress/xuclaw/hello-openclaw/skills/answeroverflow
