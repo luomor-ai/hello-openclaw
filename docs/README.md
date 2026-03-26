@@ -3,6 +3,7 @@ nvm use v22.15.0
 npm install -g openclaw
 npm uninstall -g openclaw
 openclaw onboard
+openclaw gateway stop
 
 rm -rf ~/.nvm/versions/node/v22.15.0/lib/node_modules/openclaw/extensions/feishu/
 
